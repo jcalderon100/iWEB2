@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <title>iWEB | Diseño Web - MKT</title>
+
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="Diseño Web y Marketing Digital en Mazatlán, SEO, Redes Sociales, 📞 669-9333929">
+    <meta name="keywords" content="Diseño Web Mazatlan, Marketing Digital Mazatlán, Paginas web mazatlan, diseño de paginas web mazatlan, publicidad mazatlan, 669-9333929">
+    <meta name="author" content="iWeb Studio">
+
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Verificacion META domain-->
+    <meta name="facebook-domain-verification" content="q86bik0bu5tfbf50v3tnevh89hmvwc" />
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '754390336643655');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=754390336643655&ev=PageView&noscript=1"
+      /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Theme switcher (color modes) -->
+    <script src="assets/js/theme-switcher.js"></script>
+
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo2.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo2.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo2.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/img/favicon.png" color="#6366f1"> <!-- link img-->
+    <link rel="shortcut icon" href="assets/img/logo2.png">
+    <meta name="msapplication-TileColor" content="#080032">
+    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff"> 
+
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
+
+
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+
+    <!-- Page loading styles -->
+    <style>
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      [data-bs-theme="dark"] .page-loading {
+        background-color: #0b0f19;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #9397ad;
+      }
+      [data-bs-theme="dark"] .page-loading-inner > span {
+        color: #fff;
+        opacity: .6;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        border: .15em solid #b4b7c9;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      [data-bs-theme="dark"] .page-spinner {
+        border-color: rgba(255,255,255,.4);
+        border-right-color: transparent;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+
+    <!-- Page loading scripts -->
+    <script>
+      (function () {
+        window.onload = function () {
+          const preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 1000);
+        };
+      })();
+    </script>
+  </head>
+
+  <!-- Body -->
+  <body>
+
+    <!-- Page loading spinner -->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+    
+
+    <!-- Page wrapper for sticky footer -->
+    <!-- Wraps everything except footer to push footer to the bottom of the page if there is little content -->
+    <main class="page-wrapper">
+
+      <!-- Navbar -->
+      <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page -->
+      <header class="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
+        <div class="container px-3">
+          <a href="index.html" class="navbar-brand pe-3">
+            <img src="assets/img/logo2.png" width="47" alt="Silicon">
+            i WEB
+          </a>
+          <div id="navbarNav" class="offcanvas offcanvas-end bg-dark">
+            <div class="offcanvas-header border-bottom border-light">
+              <h5 class="offcanvas-title text-white">Menu</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" aria-current="page">Portafolio</a>
+                  <div class="dropdown-menu dropdown-menu-dark p-0">
+                    <div class="d-lg-flex">
+                      <div class="mega-dropdown-column d-flex justify-content-center align-items-center rounded-3 rounded-end-0 px-0" style="margin: -1px; background-color: #f3f6ff;">
+                        <img src="assets/img/landings.jpg" alt="Landings">
+                      </div>
+                      <div class="mega-dropdown-column pt-lg-3 pb-lg-4" style="--si-mega-dropdown-column-width: 15rem;">
+                        <ul class="list-unstyled mb-0">  
+                          <h6 class="text-light px-3 mb-2">Categorias</h6>                       
+                          <li><a href="#portfolio" class="dropdown-item">Renta de Yates </a></li>
+                          <li><a href="#portfolio" class="dropdown-item">App Movil</a></li>
+                          <li><a href="#portfolio" class="dropdown-item">Productos Electronicos<span class="badge bg-success ms-2">New</span></a></li>
+                          <li><a href="#portfolio" class="dropdown-item d-flex align-items-center">Startups</a></li>
+                          <li><a href="#portfolio" class="dropdown-item">Profesionales</a></li>
+                          <li><a href="#portfolio" class="dropdown-item">Sector Salud</a></li>
+                          <li><a href="#portfolio" class="dropdown-item">Cursos Online</a></li>
+                          <li><a href="#portfolio" class="dropdown-item">Agencias Digitales</a></li>
+                          <li><a href="#portfolio" class="dropdown-item">Conferencias<span class="badge bg-success ms-2">New</span></a></li>
+                          <li><a href="#portfolio" class="dropdown-item">Blogs</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Marketing Digital</a>
+                  <div class="dropdown-menu dropdown-menu-dark">
+                    <div class="d-lg-flex pt-lg-3">
+                      <div class="mega-dropdown-column">
+                        <h6 class="text-light px-3 mb-2">Manejo de Redes</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="#social" class="dropdown-item py-1">Meta ADS</a></li>
+                        </ul>
+                        <h6 class="text-light px-3 mb-2">Logotipos</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="#logotipo" class="dropdown-item py-1">Diseño de Logotipo</a></li>
+                        </ul>
+                        <h6 class="text-light px-3 mb-2">Planes Drone + Video</h6>
+                        <ul class="list-unstyled mb-3">
+                          <li><a href="#drone1" class="dropdown-item py-1">Video Solo Drone</a></li>
+                          <li><a href="#drone2" class="dropdown-item py-1">Video + Drone</a></li>
+                          <li><a href="#drone3" class="dropdown-item py-1">Video + Foto + Drone</a></li>
+                        </ul>
+                      </div>                     
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#plans" class="nav-link">Planes</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#questions" class="nav-link">FAQs</a>
+                </li>
+              </ul>
+            </div>
+            <div class="offcanvas-header border-top border-light">
+              <a href="#contact" class="btn btn-success w-100" target="_blank" rel="noopener">
+                <i class="bx bx-chevrons-right fs-4 lh-1 me-1"></i>
+                &nbsp;Cotizar Ahora
+              </a>
+            </div>      
+          </div>
+          <div class="pe-lg-1 ms-auto me-4" data-bs-theme="dark">
+            <div class="form-check form-switch mode-switch" data-bs-toggle="mode">
+              <input type="checkbox" class="form-check-input" id="theme-mode">
+              <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
+              <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
+            </div>
+          </div>
+          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a href="#contact" class="btn btn-success btn-sm fs-sm rounded d-none d-lg-inline-flex" target="_blank" rel="noopener">
+            <i class="bx bx-chevrons-right fs-5 lh-1 me-1"></i>
+            &nbsp;Cotizar Ahora
+          </a>
+        </div>
+      </header>
+
+      <!-- Hero + BG parallax -->
+      <section id="hero" class="jarallax bg-dark min-vh-100" data-jarallax data-speed="0.4" data-bs-theme="dark">
+        <span class="position-absolute top-0 start-0 w-100 h-100" style="background: radial-gradient(116.18% 118% at 50% 100%, rgba(99, 102, 241, 0.1) 0%, rgba(218, 70, 239, 0.05) 41.83%, rgba(241, 244, 253, 0.07) 82.52%);"></span>
+        <div class="jarallax-img" style="background-image: url(assets/img/landing/intro/hero-bg.png);"></div>
+        <div class="min-vh-100 d-flex flex-column py-5">
+
+          <div class="container position-relative text-center zindex-5 pt-4 pt-md-5 pb-5 mt-auto">
+            <div class="row mt-5">
+              <div class="col-xl-10 mx-auto">
+                <h1 class="display-1 mb-md-4 pb-3">Expertos en Diseño Web y MKT Digital</h1>
+                <p class="text-body mx-auto mb-md-5 mb-4 pb-xl-2 pb-md-0 pb-sm-2 fs-5" style="max-width: 36.5rem;">
+                  Somos expertos brindando la más amplia gama de servicios y soluciones digitales para hacer crecer tu negocio.
+                </p>
+                <a href="#contact" class="btn btn-lg btn-primary shadow-primary">Iniciar Proyecto</a>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-auto pb-lg-2 pb-xl-3">
+            <ul class="list-unstyled d-flex align-items-start justify-content-center flex-wrap text-nowrap mt-xl-0 mt-md-n4 mt-sm-n3 mt-n2 ms-md-n4 ms-n3 mb-0 pt-lg-5 pt-md-4">
+              <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">
+                <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
+                Diseño web
+              </li>
+              <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">
+                <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
+                Marketing Digital
+              </li>
+              <li class="d-flex align-items-center text-body mt-md-4 mt-sm-3 mt-2 ms-md-4 ms-3">
+                <i class="bx bx-check-circle me-2 fs-5 text-primary"></i>
+                Edición de video
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    <!-- Main features (Slider on narrow scrreens) -->
+    <section class="container pt-5">
+      <div class="swiper mt-n3 mt-md-0 pt-md-4 pt-lg-5 mx-n2" data-swiper-options='{
+        "slidesPerView": 1,
+        "spaceBetween": 8,
+        "pagination": {
+          "el": ".swiper-pagination",
+          "clickable": true
+        },
+        "navigation": {
+          "prevEl": "#prev-news",
+          "nextEl": "#next-news"
+        },
+        "breakpoints": {
+          "500": {
+            "slidesPerView": 2
+          },
+          "700": {
+            "slidesPerView": 3
+          },
+          "1000": {
+            "slidesPerView": 4
+          }
+        }
+      }'>
+        <div class="swiper-wrapper">
+
+          <!-- Item -->
+          <div class="swiper-slide h-auto pb-3">
+            <div class="card card-hover bg-light border-0 animation-on-hover h-100 mx-2">
+              <lottie-player class="d-dark-mode-none mx-auto mt-4 mb-2" src="assets/json/animation-feature-2-light.json" background="transparent" speed="1.25" loop style="width: 180px;"></lottie-player>
+              <lottie-player class="d-none d-dark-mode-block mx-auto mt-4 mb-2" src="assets/json/animation-feature-2-dark.json" background="transparent" speed="1.25" loop style="width: 180px;"></lottie-player>
+              <div class="card-body fs-lg fw-semibold text-center">Diseños Modernos</div>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide h-auto pb-3">
+            <div class="card card-hover bg-light border-0 animation-on-hover h-100 mx-2">
+              <lottie-player class="d-dark-mode-none mx-auto mt-4 mb-2" src="assets/json/animation-feature-4-light.json" background="transparent" speed="1.25" loop style="width: 180px;"></lottie-player>
+              <lottie-player class="d-none d-dark-mode-block mx-auto mt-4 mb-2" src="assets/json/animation-feature-4-dark.json" background="transparent" speed="1.25" loop style="width: 180px;"></lottie-player>
+              <div class="card-body fs-lg fw-semibold text-center">Carga Rapida</div>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="swiper-slide h-auto pb-3">
+            <div class="card card-hover bg-light border-0 animation-on-hover h-100 mx-2">
+              <lottie-player class="d-dark-mode-none mx-auto mt-4 mb-2" src="assets/json/animation-feature-1-light.json" background="transparent" speed="1.25" loop style="width: 180px;"></lottie-player>
+              <lottie-player class="d-none d-dark-mode-block mx-auto mt-4 mb-2" src="assets/json/animation-feature-1-dark.json" background="transparent" speed="1.25" loop style="width: 180px;"></lottie-player>
+              <div class="card-body fs-lg fw-semibold text-center">Modo Light / Dark</div>
+            </div>
+          </div>
+
+
+          <!-- Item -->
+          <div class="swiper-slide h-auto pb-3">
+            <div class="card card-hover bg-light border-0 animation-on-hover h-100 mx-2">
+              <lottie-player class="d-dark-mode-none mx-auto mt-4 mb-2" src="assets/json/animation-feature-3-light.json" background="transparent" speed="1.25" loop style="width: 180px;"></lottie-player>
+              <lottie-player class="d-none d-dark-mode-block mx-auto mt-4 mb-2" src="assets/json/animation-feature-3-dark.json" background="transparent" speed="1.25" loop style="width: 180px;"></lottie-player>
+              <div class="card-body fs-lg fw-semibold text-center">Amplio portafolio</div>
+            </div>
+          </div>
+
+          
+
+          
+
+        </div>
+    
+        <!-- Pagination (bullets) -->
+        <div class="swiper-pagination position-relative bottom-0 mt-2"></div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="container text-center pt-5 pb-5 mt-2 mt-md-4 mt-lg-5">
+      <h2 class="h1 pt-2 pt-lg-0">Portafolio</h2>
+      <p class="fs-lg pb-2 pb-md-3 pb-lg-0 mb-4 mb-lg-5">Conoce algunos de nuestros diseños, listos para aplicarlos en tu negocio</p>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/1.png" class="b-block border rounded-3 shadow-sm" alt="#">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo01.houzez.co/" class="stretched-link">Directorio de Propiedades | Demo 1</a>
+          </h3>
+        </div>
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/2.png" class="b-block border rounded-3 shadow-sm" alt="#">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo04.houzez.co/" class="stretched-link">Directorio de Propiedades | Demo 2</a>
+          </h3>
+        </div>
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/3.png" class="b-block border rounded-3 shadow-sm" alt="#">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo07.houzez.co/" class="d-flex justify-content-center align-items-center stretched-link">Directorio de Propiedades | Demo 3</a>
+          </h3>
+        </div>
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/4.png" class="b-block border rounded-3 shadow-sm" alt="#">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo34.houzez.co/" class="d-flex justify-content-center align-items-center stretched-link">Directorio de Propiedades | Demo 4</a>
+          </h3>
+        </div>
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/9.png" class="b-block border rounded-3 shadow-sm" alt="#">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo17.houzez.co/" class="stretched-link">Directorio de Propiedades | Demo 5</a>
+          </h3>
+        </div>
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/5.png" class="b-block border rounded-3 shadow-sm" alt="Online Courses">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo22.houzez.co/" class="stretched-link">Condominio | Demo 1 </a>
+          </h3>
+        </div>
+
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/6.png" class="b-block border rounded-3 shadow-sm" alt="#">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo10.houzez.co/" class="d-flex justify-content-center align-items-center stretched-link">Condominio | Demo 2 </a>
+          </h3>
+        </div>
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/7.png" class="b-block border rounded-3 shadow-sm" alt="#">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo25.houzez.co/" class="stretched-link">Agente Real State Listing | Demo 1</a>
+          </h3>
+        </div>
+        <div class="col card-hover shadow-none bg-none position-relative mb-4 mb-lg-5">
+          <img src="assets/img/portfolio/8.png" class="b-block border rounded-3 shadow-sm" alt="Online Courses">
+          <h3 class="h5 mt-4 mb-3 mb-lg-0">
+            <a href="https://demo06.houzez.co/" class="stretched-link">Agente Real State Listing | Demo 2</a>
+          </h3>
+        </div>
+        
+      
+      </div>
+    </section>
+
+    
+
+    <!-- CTA carousel -->
+    <div class="container text-center pb-4 pb-md-5 mb-3">
+      <h2 class="h1 pt-2 pt-lg-0">Tener un sitio web te ayuda a </h2>
+      
+    </div>
+
+    <!-- Reason -->
+    <section class="pb-5 mb-2 mb-md-4 mb-lg-5" style="padding-top: 80px;">
+
+      <div class="bg-secondary pb-lg-4 pb-xl-5">
+        
+        <div class="container pb-4 pb-md-5">
+          
+          <div class="row">
+            <div class="col-xl-5 col-lg-6" style="margin-top: -80px;">
+
+              <!-- Swiper tabs -->
+              <div class="swiper-tabs mx-auto" style="max-width: 526px;">
+                <div id="image-1" class="swiper-tab active">
+                  <img src="assets/img/landing/intro/reason/1.png" class="rounded-3" alt="Image">
+                </div>
+                <div id="image-2" class="swiper-tab">
+                  <img src="assets/img/landing/intro/reason/2.png" class="rounded-3" alt="Image">
+                </div>
+                <div id="image-3" class="swiper-tab">
+                  <img src="assets/img/landing/intro/reason/3.png" class="rounded-3" alt="Image">
+                </div>
+                <div id="image-4" class="swiper-tab">
+                  <img src="assets/img/landing/intro/reason/4.png" class="rounded-3" alt="Image">
+                </div>
+                <div id="image-5" class="swiper-tab">
+                  <img src="assets/img/landing/intro/reason/5.png" class="rounded-3" alt="Image">
+                </div>
+                <div id="image-6" class="swiper-tab">
+                  <img src="assets/img/landing/intro/reason/6.png" class="rounded-3" alt="Image">
+                </div>
+
+
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-6 offset-xl-1 pt-2 pt-md-4 pt-lg-5 mt-4">
+
+              <!-- Slider prev/next buttons -->
+              <div class="d-flex justify-content-center justify-content-lg-start pb-3 mb-3">
+                <button type="button" id="prev" class="btn btn-prev btn-icon btn-sm me-2" aria-label="Previous">
+                  <i class="bx bx-chevron-left"></i>
+                </button>
+                <button type="button" id="next" class="btn btn-next btn-icon btn-sm ms-2" aria-label="Next">
+                  <i class="bx bx-chevron-right"></i>
+                </button>
+              </div>
+
+              <!-- Swiper slider -->
+              <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
+                "spaceBetween": 30,
+                "loop": true,
+                "tabs": true,
+                "navigation": {
+                  "prevEl": "#prev",
+                  "nextEl": "#next"
+                }
+              }'>
+                <div class="swiper-wrapper text-center text-lg-start">
+
+                  <!-- Item -->
+                  <div class="swiper-slide pb-4" data-swiper-tab="#image-1">
+                    <h2 class="h1 mb-4">Visibilidad y Presencia <span class="text-info">en linea</span></h2>
+                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Un sitio web proporciona una presencia en línea las 24 horas del día, los 7 días de la semana, permitiendo que los clientes potenciales te encuentren en cualquier momento.</p>
+                    <a href="#plans" class="btn btn-info btn-lg shadow-info">Cotizar ahora</a>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="swiper-slide pb-4" data-swiper-tab="#image-2">
+                    <h2 class="h1 mb-4">Credibilidad y <span class="text-warning">Profesionalismo</span></h2>
+                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Un sitio web bien diseñado y actualizado da una impresión de profesionalismo, lo que puede aumentar la credibilidad de tu negocio.</p>
+                    <a href="#plans" class="btn btn-warning btn-lg shadow-warning">Cotizar ahora</a>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="swiper-slide pb-4" data-swiper-tab="#image-3">
+                    <h2 class="h1 mb-4">Marketing y <span class="text-success">Publicidad</span></h2>
+                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Un sitio web es una herramienta valiosa para promocionar tus productos o servicios, y puedes utilizar estrategias de marketing digital para llegar a un público más amplio.</p>
+                    <a href="#plans" class="btn btn-success btn-lg shadow-success">Cotizar ahora</a>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="swiper-slide pb-4" data-swiper-tab="#image-4">
+                    <h2 class="h1 mb-4">Información <span class="text-danger">Detallada</span></h2>
+                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Puedes proporcionar información detallada sobre tus productos o servicios, horarios, ubicación y datos de contacto, lo que facilita a los clientes obtener la información que necesitan.</p>
+                    <a href="#plans" class="btn btn-danger btn-lg shadow-danger">Cotizar ahora</a>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="swiper-slide pb-4" data-swiper-tab="#image-5">
+                    <h2 class="h1 mb-4">Accesibilidad <span class="text-info">Global</span></h2>
+                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Un sitio web permite llegar a un público global, no limitando tu alcance a una ubicación geográfica específica.</p>
+                    <a href="#plans" class="btn btn-info btn-lg shadow-info">Cotizar ahora</a>
+                  </div>
+
+                  <!-- Item -->
+                  <div class="swiper-slide pb-4" data-swiper-tab="#image-6">
+                    <h2 class="h1 mb-4">Ventas en <span class="text-success">linea</span></h2>
+                    <p class="pb-2 pb-xl-0 mb-4 mb-xl-5">Si ofreces productos, un sitio web puede ser una plataforma para realizar ventas en línea, lo que amplía tus oportunidades de generación de ingresos.</p>
+                    <a href="#plans" class="btn btn-success btn-lg shadow-success">Cotizar ahora</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meta Ads plan -->
+    <section id="social" class="container pt-lg-2 pt-xl-3 pb-3 pb-xl-5 mt-n2 mt-sm-0 mb-4 mb-md-4 mb-lg-5">
+      <div class="row pb-xl-3">
+
+        <!-- Parallax gfx -->
+        <div class="col-lg-5 d-none d-lg-block">
+          <div class="position-relative" style="max-width: 348px;">
+            <img src="assets/img/landing/intro/social/phone.png" alt="Phone">
+            <div class="rellax position-absolute top-0" data-rellax-vertical-scroll-axis="x" data-rellax-horizontal-speed="0.75" data-disable-parallax-down="lg" style="max-width: 348px; right: -2.75rem;">
+              <img src="assets/img/landing/intro/social/card.png" alt="Card">
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature list -->
+        <div class="col-lg-7">
+          <h2 class="h1 text-center text-md-start mb-4">Manejo de Redes Sociales</h2>
+          <p class="fs-lg text-center text-md-start mb-4 mb-xl-5">
+            Empieza a generar clientes y contactos desde el primer día de lanzamiento, 
+            crearemos una campaña segmentada y especializada, 
+            tu solamente pones la inversión <strong>nosotros nos encargaremos de llevarte a los prospectos</strong>.
+            Esto incluye:</p>
+          <div class="row row-cols-1 row-cols-sm-2 pt-2 pt-sm-3 pt-xl-2">
+
+            <!-- Item -->
+            <div class="col pb-2 pb-xl-0 mb-4 mb-xl-5">
+              <div class="d-flex align-items-start pe-xl-3">
+                <div class="d-table bg-secondary rounded-3 flex-shrink-0 p-2 mb-3">
+                  <img src="assets/img/landing/intro/feactures/1.png" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-3 ps-md-4">
+                  <h3 class="h5 pb-1 mb-2">Copys</h3>
+                  <p class="mb-0">Creación de 10 copys publicitarios</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col pb-2 pb-xl-0 mb-4 mb-xl-5">
+              <div class="d-flex align-items-start ps-xl-3">
+                <div class="d-table bg-secondary rounded-3 flex-shrink-0 p-2 mb-3">
+                  <img src="assets/img/landing/intro/feactures/2.png" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-3 ps-md-4">
+                  <h3 class="h5 pb-1 mb-2">Campañas</h3>
+                  <p class="mb-0">2 campañas publicitarias en facebook ADS.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col pb-2 pb-xl-0 mb-4 mb-xl-5">
+              <div class="d-flex align-items-start pe-xl-3">
+                <div class="d-table bg-secondary rounded-3 flex-shrink-0 p-2 mb-3">
+                  <img src="assets/img/landing/intro/feactures/4.png" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-3 ps-md-4">
+                  <h3 class="h5 pb-1 mb-2">Anuncios</h3>
+                  <p class="mb-0">Creación de 10 anuncios publicitarios.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col pb-2 pb-xl-0 mb-4 mb-xl-5">
+              <div class="d-flex align-items-start ps-xl-3">
+                <div class="d-table bg-secondary rounded-3 flex-shrink-0 p-2 mb-3">
+                  <img src="assets/img/landing/intro/feactures/5.png" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-3 ps-md-4">
+                  <h3 class="h5 pb-1 mb-2">Alta de Cuenta publicitaria</h3>
+                  <p class="mb-0">Creación de paginas en Facebook e Instragram.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col pb-2 pb-xl-0 mb-4 mb-xl-5">
+              <div class="d-flex align-items-start pe-xl-3">
+                <div class="d-table bg-secondary rounded-3 flex-shrink-0 p-2 mb-3">
+                  <img src="assets/img/landing/intro/feactures/3.png" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-3 ps-md-4">
+                  <h3 class="h5 pb-1 mb-2">Segmentación</h3>
+                  <p class="mb-0">Segmentación de clientes en Facebook.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col pb-2 pb-xl-0 mb-4 mb-xl-5">
+              <div class="d-flex align-items-start ps-xl-3">
+                <div class="d-table bg-secondary rounded-3 flex-shrink-0 p-2 mb-3">
+                  <img src="assets/img/landing/intro/feactures/6.png" alt="Icon">
+                </div>
+                <div class="ps-4 ps-sm-3 ps-md-4">
+                  <h3 class="h5 pb-1 mb-2">Reportes</h3>
+                  <p class="mb-0">Entrega de resultados semanales.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container xl-md-text-center pt-3 pb-4 ">
+          <a href="#" class="btn btn-lg btn-primary shadow-primary">+ Añádelo a tu plan por $2,490 mxn</a>
+          </div>
+          <p class="fs-md mt-4 text-md-end">* Incluído <strong>gratis</strong> a partir del plan PyMEs</p>
+          <p class="fs-md text-md-end">* No Incluye pauta publicitaria </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Logo -->
+    <section id="logotipo" class="container pb-sm-1 pb-md-3">
+
+    <!-- Row 1 -->
+    <div class="row align-items-lg-center pt-md-3 pb-5 mb-2 mb-lg-4 mb-xl-5">
+      <div class="col-md-6 order-md-2 mb-4 mb-md-0">
+        <img src="assets/img/brand.png" class="rounded-3" alt="Image">
+      </div>
+      <div class="col-md-6 order-md-1">
+        <div class="pe-xl-5 me-md-2 me-lg-4">
+          <h2 class="h1 mb-3 mb-sm-4 ">LOGO</h2>
+          <p class="mb-4 mb-lg-5">Tu logotipo es la firma de tu negocio. Te apoyaremos para crear un logotipo que sea único, memorable y represente la esencia de tu marca. Eleva tu imagen con un logotipo que hable por sí mismo.</p>
+          <a href="#" class="btn btn-lg btn-primary shadow-primary">+ Añádelo a tu plan por $990 mxn </a>
+          <p class="mb-4 mt-4 mb-lg-5">*Incluído <strong>gratis</strong> en plan PyMEs y Empresas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-lg-center pt-3 pb-3 mb-1 mb-lg-4 mb-xl-5">
+      
+    </div>
+    </section>
+
+    <!-- Drone Info -->
+    <section id="drone" class="container pb-sm-1 pb-md-3">
+
+      <!-- Row 1 -->
+      <div class="row align-items-lg-center pb-5 mb-2 mb-lg-4 mb-xl-5">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="assets/img/drone/1.png" class="rounded-3" alt="Image">
+        </div>
+        <div class="col-md-6">
+          <div class="ps-xl-5 ms-md-2 ms-lg-4">
+            <h2 class="h1 mb-3 mb-sm-4">Dale a tus proyectos una perspectiva única</h2>
+            <p class="mb-4 mb-lg-5">Con nuestro servicio de video con drone. Desde imágenes aéreas panorámicas hasta tomas dinámicas en movimiento, capturamos cada momento con precisión y estilo. Eleva tu visión, eleva tu contenido.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div id="drone3" class="row gy-4 mb-5 pb-xl-5 pb-md-4 pb-3">
+        <div class="col-lg-5 col-md-6 order-md-1 order-2 d-flex rellax" data-rellax-percentage="0.5" data-rellax-speed="-0.5" data-disable-parallax-down="md">
+          <div class="align-self-center pe-lg-0 pe-md-4">
+            <h3 class="mb-md-4">Drone + Foto</h3>
+            <p class="mb-md-4 mb-3 fs-lg">Ideal para mostrar propiedades, avances y desarrollos, para <strong>mostrar desde todas las perpectivas</strong> de un proyecto inmobiliario o turístico.</p>
+            <hr class="my-md-4 my-3">
+            <ul class="list-unstyled d-flex flex-wrap mt-md-n3 mt-n2 ms-md-n4 ms-n3 mb-4 pb-lg-4 pb-md-2 fw-bold">
+              <li class="mt-md-3 mt-2 ms-md-4 ms-3">Drone + Estabilizador</li>
+              <li class="mt-md-3 mt-2 ms-md-4 ms-3">Edición de video</li>
+              <li class="mt-md-3 mt-2 ms-md-4 ms-3">4k HDR</li>
+              <li class="mt-md-3 mt-2 ms-md-4 ms-3">Imagenes en alta resolución</li>
+            </ul>
+            <div class="ps-xl-0 ms-md-0 ms-lg-0">           
+              <a href="#" class="btn btn-lg btn-primary shadow-primary">+ Añádelo a tu plan por $2,490 mxn</a>
+              <p class="mb-2 mt-4 mb-lg-2">* Incluído <strong>gratis</strong> en el plan Empresas.</p>
+              <p class="mb-4 mt-2 mb-lg-2">* Servicio <strong>disponible solo en Mazatlán</strong>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 offset-lg-1 order-md-2 order-1 rellax" data-rellax-percentage="0.5" data-rellax-speed="0.5" data-disable-parallax-down="md">
+          <div class="bg-secondary rounded-3">
+            <img src="assets/img/droneplan/3.png" alt="Image" class="rounded-3">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ready -->
+    <section class="container mb-5 mb-md-3 mb-lg-4">
+      <div class="bg-secondary rounded-3 overflow-hidden">
+        <div class="row align-items-center">
+          <div class="col-xl-4 col-md-5 offset-lg-1">
+            <div class="pt-5 pb-3 pb-md-5 px-4 px-lg-0 text-center text-md-start">
+              <p class="lead mb-3">Estas listo?</p>
+              <h2 class="h1 pb-3 pb-sm-4">Para llevar <span class="text-primary">tu negocio</span> al siguiente nivel</h2>
+              <a href="#contact" class="btn btn-primary btn-lg">trabajemos juntos</a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-7 offset-xl-1">
+            <div class="position-relative d-flex flex-column align-items-center justify-content-center h-100">
+              <svg class="d-none d-md-block position-absolute top-50 start-0 translate-middle-y" width="868" height="868" style="min-width: 868px;" viewBox="0 0 868 868" fill="none" xmlns="http://www.w3.org/2000/svg"><circle opacity="0.15" cx="434" cy="434" r="434" fill="#6366F1"/></svg>
+              <img src="assets/img/cta.png" class="position-relative zindex-3 mb-2 my-lg-4" width="382" alt="Illustration">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing plans -->
+    <section id="plans" class="container position-relative zindex-2" style="margin-top: 50px;">
+      <div class="price-switch-wrapper">
+        <div class="pb-2 pb-lg-3" data-bs-theme="light">
+          
+          <div class="form-check form-switch price-switch justify-content-center mt-2 mb-4" data-bs-toggle="price">
+            <input type="checkbox" class="form-check-input" id="pricing">
+            <label class="form-check-label" for="pricing">12 Meses con TDC</label>
+            <label class="form-check-label d-flex align-items-start" for="pricing">Contado<span class="text-danger fs-xs fw-semibold mt-n2 ms-2">-20%</span></label>
+          </div>
+
+        </div>
+        <div class="table-responsive-lg">
+          <div class="d-flex align-items-center pb-4">
+
+            <!-- Pricing plan -->
+            <div class="border rounded-3 rounded-end-0 shadow-sm me-n1" style="width: 32%; min-width: 16rem;">
+              <div class="card bg-light h-100 border-0 border-end rounded-end-0 py-3 py-sm-4 py-lg-5">
+                <div class="card-body text-center">
+                  <h3 class="mb-2">Startups</h3>
+                  <div class="fs-lg pb-4 mb-3">Ideal para pequeños negocios</div>
+                  <div class="display-5 text-dark mb-1" data-monthly-price>$32</div>
+                  <div class="d-none display-5 text-dark mb-1" data-annual-price>$329</div>
+                  <div class="text-muted mb-5">USD</div>
+                </div>
+                <div class="card-footer border-0 text-center pt-0 pb-4">
+                  <a href="#contact" class="btn btn-outline-primary btn-lg">Solicitar Ahora</a>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Featurd pricing plan -->
+            <div class="bg-primary position-relative rounded-3 shadow-primary shadow-dark-mode-none zindex-2 p-4" style="width: 36%; min-width: 18rem;">
+              <div class="card bg-transparent border-light py-3 py-sm-4 py-lg-5">
+                <div class="card-body text-light text-center">
+                  <h3 class="text-light mb-2">PyMEs</h3>
+                  <div class="fs-lg opacity-70 pb-4 mb-3">El mejor plan para impulsar tu negocio </div>
+                  <div class="display-5 mb-1" data-monthly-price>$49</div>
+                  <div class="d-none display-5 mb-1" data-annual-price>$ 499</div>
+                  <div class="opacity-50 mb-5">USD</div>
+                </div>
+                <div class="card-footer border-0 text-center pt-0 pb-4">
+                  <a href="#contact" class="btn btn-light btn-lg shadow-secondary">Solicitar Ahora</a>
+                </div>
+                
+              </div>
+            </div>
+
+            <!-- Pricing plan -->
+            <div class="border rounded-3 rounded-start-0 shadow-sm" style="width: 32%; min-width: 16rem;">
+              <div class="card bg-light h-100 border-0 rounded-start-0 py-3 py-sm-4 py-lg-5">
+                <div class="card-body text-center">
+                  <h3 class="mb-2">Empresas</h3>
+                  <div class="fs-lg pb-4 mb-3">Ideal para negocios que buscan mejorar su precencia en el mercado.</div>
+                  <div class="display-5 text-dark mb-1" data-monthly-price>$82</div>
+                  <div class="d-none display-5 text-dark mb-1" data-annual-price>$829</div>
+                  <div class="text-muted mb-5">USD</div>
+                </div>
+                <div class="card-footer border-0 text-center pt-0 pb-4">
+                  <a href="#contact" class="btn btn-outline-primary btn-lg">Solicitar Ahora</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans comparison -->
+    <section class="container py-5 my-md-3 my-lg-5">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center text-md-start">
+          <h2 class="h1 mb-4">Paquetes</h2>
+          <p class="fs-lg mb-md-0">Elige la opción que mejor se adecue a las necesidades de tu negocio</p>
+        </div>
+
+      <!--Version responsive-->
+        <div class="col-md-8">
+          <div class="row row-cols-1 row-cols-md-3">
+            <div class="col text-md-center pb-2 mb-4">
+              <h3 class="h5 mb-2 mb-md-3">Startups</h3>
+              <ul class="d-md-none list-unstyled">
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Landing Page | Ecommerce | Directorio Real State:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Revisiones y cambios:&nbsp;</span>
+                  3
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Formulario + Link a redes Sociales + Mapa:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Sitio responsivo adaptable a moviles:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Dominio.com y .com.mx + hosting por 1 año:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Correos institucionales:&nbsp;</span>
+                  10
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Certificado de Seguridad SSL:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Mantenimiento Gratis 1 Año:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Manejo de Redes Sociales:&nbsp;</span>               
+                  <i class="bx bx-x lead text-muted"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Video + Drone:&nbsp;</span>
+                  <i class="bx bx-x lead text-muted"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Creación de logotipo:&nbsp;</span>               
+                  <i class="bx bx-x lead text-muted"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Tiempo de Entrega:&nbsp;</span>
+                  1 - 2 Semanas
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Renovación de dominio y hosting anual:&nbsp;</span>               
+                  $990 mxn
+                </li>
+              </ul>
+              <a href="#contact" type="button" class="btn btn-outline-primary w-100 w-md-auto">Solicitar</a>
+            </div>
+            <div class="col text-md-center pb-2 mb-4">
+              <h3 class="h5 mb-2 mb-md-3">PyMEs</h3>
+              <ul class="d-md-none list-unstyled">
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Landing Page | Ecommerce | Directorio Real State:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Revisiones y cambios:&nbsp;</span>
+                  5
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Formulario + Link a redes Sociales + Mapa:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Sitio responsivo adaptable a moviles:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Dominio .com y hosting por 1 año:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Correos institucionales:&nbsp;</span>
+                  20
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Certificado de Seguridad SSL:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Mantenimiento Gratis 1 Año:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Manejo de Redes Sociales:&nbsp;</span>               
+                  1 Mes
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Video + Drone:&nbsp;</span>
+                  <i class="bx bx-x lead text-muted"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Creación de logotipo:&nbsp;</span>               
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Tiempo de Entrega:&nbsp;</span>
+                  1 - 2 Semanas.
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Renovación de dominio y hosting anual:&nbsp;</span>               
+                  $990 mxn
+                </li>
+              </ul>
+              <a href="#contact" type="button" class="btn btn-outline-primary w-100 w-md-auto">Solicitar</a>
+            </div>
+            <div class="col text-md-center pb-2 mb-4">
+              <h3 class="h5 mb-2 mb-md-3">Empresas</h3>
+              <ul class="d-md-none list-unstyled">
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Landing Page | Ecommerce | Directorio Real State:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Revisiones y cambios:&nbsp;</span>
+                  8
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Formulario + Link a Redes Sociales + Mapa:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Sitio responsivo adaptable a moviles:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Dominio .com y hosting por 1 año:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Correos institucionales:&nbsp;</span>
+                  30
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Certificado de Seguridad SSL:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Mantenimiento Gratis 1 Año:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Manejo de Redes Sociales:&nbsp;</span>               
+                  2 Meses
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Video + Drone:&nbsp;</span>
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Creación de logotipo:&nbsp;</span>               
+                  <i class="bx bx-check lead text-primary"></i>
+                </li>
+                <li class="d-flex align-items-center p-2 bg-secondary">
+                  <span class="text-dark fw-medium">Tiempo de Entrega:&nbsp;</span>
+                  3 - 4 Semanas
+                </li>
+                <li class="d-flex align-items-center p-2">
+                  <span class="text-dark fw-medium">Renovación de dominio y hosting anual:&nbsp;</span>               
+                  $990 mxn
+                </li>
+              </ul>
+              <a href="#contact" type="button" class="btn btn-outline-primary w-100 w-md-auto">Solicitar</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <!--Version Escritorio-->
+      <div class="d-none d-md-block pt-5 mt-2 pb-4">
+        <div class="row g-0">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Landing Page | Ecommerce | Directorio Real State</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4"><i class="bx bx-check lead text-primary"></i></div>
+              <div class="col position-relative bg-primary px-2 py-4">
+                <i class="bx bx-check lead text-light"></i>
+                <span class="position-absolute start-0 bottom-100 w-100 bg-primary rounded-3 rounded-bottom-0" style="height: 2rem;"></span>
+              </div>
+              <div class="col px-2 py-4"><i class="bx bx-check lead text-primary"></i></div>             
+            </div>           
+          </div>
+        </div>
+
+        <div class="row g-0 bg-secondary rounded-3">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Revisiones y cambios</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">3</div>
+              <div class="col bg-primary px-2 py-4">
+                <span class="text-light opacity-80">4</span>
+              </div>
+              <div class="col px-2 py-4">5</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row g-0">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Formulario + Link a redes Sociales + Mapa</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+              <div class="col bg-primary px-2 py-4">
+                <i class="bx bx-check lead text-light"></i>
+              </div>
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+          </div>
+        </div>
+        <div class="row g-0 bg-secondary rounded-3">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Sitio responsive adaptable a móviles</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+              <div class="col bg-primary px-2 py-4">
+                <i class="bx bx-check lead text-light"></i>
+              </div>
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Dominio.com y .com.mx + hosting por 1 año</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+              <div class="col bg-primary px-2 py-4">
+                <i class="bx bx-check lead text-light"></i>
+              </div>
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 bg-secondary rounded-3">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Correos Institucionales</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">10</div>
+              <div class="col position-relative bg-primary px-2 py-4">
+                <span class="text-light opacity-80">20</span>
+                <span class="position-absolute start-0 bottom-100 w-100 bg-primary rounded-3 rounded-bottom-0" style="height: 2rem;"></span>
+              </div>
+              <div class="col px-2 py-4">30</div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Certificado de seguridad SSL</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+              <div class="col bg-primary px-2 py-4">
+                <i class="bx bx-check lead text-light"></i>
+              </div>
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0 bg-secondary rounded-3">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Mantenimiento Gratis 1 Año</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+              <div class="col bg-primary px-2 py-4">
+                <i class="bx bx-check lead text-light"></i>
+              </div>
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row g-0">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Manejo de Redes Sociales</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">
+                <i class="bx bx-x lead text-muted"></i>
+              </div>
+              <div class="col position-relative bg-primary px-2 py-4">
+                <span class="text-light opacity-80">1 Mes</span>
+                <span class="position-absolute start-0 bottom-100 w-100 bg-primary rounded-3 rounded-bottom-0" style="height: 2rem;"></span>
+              </div>
+              <div class="col px-2 py-4">2 Meses</div>
+            </div>
+            </div>
+        </div>
+        <div class="row g-0 bg-secondary rounded-3">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Drone Video + Fotos</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">
+                <i class="bx bx-x lead text-muted"></i>
+              </div>
+              <div class="col bg-primary px-2 py-4">
+                <i class="bx bx-x lead text-light"></i>
+              </div>
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+            </div>
+          </div>
+        </div> 
+        <div class="row g-0">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Creación de logotipo</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4">
+                <i class="bx bx-x lead text-muted"></i>
+              </div>
+              <div class="col bg-primary px-2 py-4">
+                <i class="bx bx-check lead text-light"></i>
+              </div>
+              <div class="col px-2 py-4">
+                <i class="bx bx-check lead text-primary"></i>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div class="row g-0 bg-secondary">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Tiempo de Entrega</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4"> 1 - 2 semanas </div>
+              <div class="col position-relative bg-primary px-2 py-4">
+                <span class="text-light opacity-80"> 1 - 2 semanas</span>
+                <span class="position-absolute start-0 top-100 w-100 bg-primary rounded-3 rounded-top-0" style="height: 2rem;"></span>
+              </div>
+              <div class="col px-2 py-4"> 3 - 4 semanas </div>
+            </div>
+          </div>
+        </div>     
+        <div class="row g-0 rounded-3">
+          <div class="col-md-4 text-dark fw-semibold ps-4 pe-2 py-4">Renovación dominio + hosting anual</div>
+          <div class="col-md-8 text-center">
+            <div class="row row-cols-3 g-0">
+              <div class="col px-2 py-4"> $990 mxn </div>
+              <div class="col position-relative bg-primary px-2 py-4">
+                <span class="text-light opacity-80"> $990 mxn</span>
+                <span class="position-absolute start-0 top-100 w-100 bg-primary rounded-3 rounded-top-0" style="height: 2rem;"></span>
+              </div>
+              <div class="col px-2 py-4"> $990 mxn</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Questions -->
+    <section id="questions" class="container mb-5 pb-2 pb-md-4 pb-lg-5">
+      <div class="card border-0 bg-secondary p-md-5 px-sm-2 pt-4 pb-3">
+        <div class="card-body mx-auto" style="max-width: 860px;">
+          <h2 class="h1 mb-4 text-center">Preguntas Frecuentes</h2>
+          <p class="mb-4 pb-3 fs-lg text-center ">Nuestra intención es que estes bien informado del proceso, es por eso que diseñamos este apartado para que tengas la mayor información posible a tu alcance.</p>
+
+          <!-- Accordion: Alternative style -->
+          <div class="accordion" id="accordion-services">
+
+            <!-- Item -->
+            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+              <h3 class="accordion-header" id="heading-1">
+                <button class="accordion-button fs-xl shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">Puedo solicitar factura?</button>
+              </h3>
+              <div class="accordion-collapse collapse show" id="collapse-1" aria-labelledby="heading-1" data-bs-parent="#accordion-services">
+                <div class="accordion-body pt-0">
+                  <div class="d-flex flex-md-row flex-column align-items-md-center">
+                    <img src="assets/img/faqs/1.png" width="200" alt="Digital Marketing" class="me-md-4 mb-md-0 mb-3">
+                    <div class="ps-md-3">
+                      <p class="mb-0 ">Claro que si, <strong>todos los precios de nuestros servicios ya incluyen IVA</strong>, en caso de requerirla nos lo puedes hacer saber en la cita que tendremos previamente para definir el diseño web y los requerimientos de tu proyecto</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+              <h3 class="accordion-header" id="heading-2">
+                <button class="accordion-button fs-xl shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">Que cantidad debo de entregar para iniciar el proyecto?</button>
+              </h3>
+              <div class="accordion-collapse collapse" id="collapse-2" aria-labelledby="heading-2" data-bs-parent="#accordion-services">
+                <div class="accordion-body pt-0">
+                  <div class="d-flex flex-md-row flex-column align-items-md-center">
+                    <img src="assets/img/faqs/2.png" width="200" alt="Web Development" class="me-md-4 mb-md-0 mb-3">
+                    <div class="ps-md-3">
+                      <p class="mb-0">Se requiere el <strong>50%</strong> para iniciar el desarrollo del proyecto, el cual se entrega despues de la firma del contrato por la prestación de servicios, el otro 50% es <strong>contra la entrega del proyecto</strong>, el pago puede realizarce en <strong>efectivo, transferencia, tarjeta de credito o Paypal</strong></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <!-- Item -->
+            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+              <h3 class="accordion-header" id="heading-4">
+                <button class="accordion-button fs-xl shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="true" aria-controls="collapse-4">Ofrecén pagos a mensualidades?</button>
+              </h3>
+              <div class="accordion-collapse collapse" id="collapse-4" aria-labelledby="heading-4" data-bs-parent="#accordion-services">
+                <div class="accordion-body pt-0">
+                  <div class="d-flex flex-md-row flex-column align-items-md-center">
+                    <img src="assets/img/faqs/4.png" width="200" alt="Strategy" class="me-md-4 mb-md-0 mb-3">
+                    <div class="ps-md-3">
+                      <p class="mb-0">Si, pero solamente <strong>por medio de tarjeta de credito</strong> diferiremos el cargo hasta <strong>12 mensualidades</strong> para que el banco sea quien te realice el cobro de forma mensual, cabe aclarar que realizar el <strong>pago de contado tiene un descuento adicional</strong>.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+              <h3 class="accordion-header" id="heading-5">
+                <button class="accordion-button fs-xl shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-5" aria-expanded="true" aria-controls="collapse-4">Que es pauta publicitaría?</button>
+              </h3>
+              <div class="accordion-collapse collapse" id="collapse-5" aria-labelledby="heading-4" data-bs-parent="#accordion-services">
+                <div class="accordion-body pt-0">
+                  <div class="d-flex flex-md-row flex-column align-items-md-center">
+                    <img src="assets/img/faqs/5.png" width="200" alt="Strategy" class="me-md-4 mb-md-0 mb-3">
+                    <div class="ps-md-3">
+                      <p class="mb-0"><strong>Es el gasto diario destinado a la promoción de productos o servicios a traves de la plataforma de administración de anuncios</strong> en nuestro caso utilizamos <strong>META ADs - facebook e instagram</strong>, es decir es la inversión que se destinará para la circulación de anuncios por medio de estas plataformas,  El<strong> Manejo de redes Sociales </strong> se refiere al diseño de creativos y desarrollo de estrategias que tienen como proposito generar trafico al sitio web para que los cliente potenciales puedan conocer mas a detalles tus productos o servicios</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item -->
+            <div class="accordion-item border-0 rounded-3 shadow-sm mb-3">
+              <h3 class="accordion-header" id="heading-6">
+                <button class="accordion-button fs-xl shadow-none rounded-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-6" aria-expanded="true" aria-controls="collapse-6">Puedo contratar un servicio sin adquirirlo a través de alguno de los planes web?</button>
+              </h3>
+              <div class="accordion-collapse collapse" id="collapse-6" aria-labelledby="heading-6" data-bs-parent="#accordion-services">
+                <div class="accordion-body pt-0">
+                  <div class="d-flex flex-md-row flex-column align-items-md-center">
+                    <img src="assets/img/faqs/3.png" width="200" alt="Application Development" class="me-md-4 mb-md-0 mb-3">
+                    <div class="ps-md-3">
+                      <p class="mb-0">Si, puedes adquirir cualquiera de nuestros servicios sin necesidad de hacerlo por medio de planes integrales, es decir si solo requieres de manejo de redes sociales, diseño de logotipo o simplemente necesitas un video con drone es posible. Cabe mencionar que<strong> el pago de los servicios contratados de manera independiente debe de realizarce de contado y no en mensualidades a diferencia de los planes integrales.</strong></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section id="contact" class="container mb-3">
+      <div class="bg-secondary rounded-3 py-5 px-3 px-sm-4 px-lg-0">
+        <div class="row align-items-center pt-1 pb-2 py-lg-4">
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 mb-4 pb-3 mb-md-0 pb-md-0">
+            <h2 class="h1 mb-lg-4">Contacto</h2>
+            <p class="pb-2 pb-md-4 pb-lg-5">Tienes un proyecto en mente? para cotizar contactanos directamente o completa el siguiente formulario para poder brindarte información mas a detalle.</p>
+            <h3 class="mb-lg-4">Información</h3>
+            <ul class="list-unstyled pb-3 pb-md-4 pb-lg-5 mb-2">
+              <li class="mb-2">
+                <a href="tel:+526694165831" class="nav-link d-flex align-items-center p-0">
+                  <i class="bx bx-phone-call fs-xl text-primary me-2"></i>
+                  (669)&nbsp;416&#8209;5831
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="mailto:example@email.com" class="nav-link d-flex align-items-center p-0">
+                  <i class="bx bx-envelope fs-xl text-primary me-2"></i>
+                  atencion@iweb.com.mx
+                </a>
+              </li>
+              <li class="mb-2">
+                <a href="#" class="nav-link d-flex align-items-center p-0">
+                  <i class="bx bx-map fs-xl text-primary me-2"></i>
+                  Mazatlán, Sin. México. CP 82000
+                </a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a href="https://www.facebook.com/iwebmazatlan" class="btn btn-icon btn-outline-secondary btn-facebook me-3" aria-label="Facebook">
+                <i class="bx bxl-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/iwebdisenowebmkt/" class="btn btn-icon btn-outline-secondary btn-instagram me-3" aria-label="Instagram">
+                <i class="bx bxl-instagram"></i>
+              </a>
+              <a href="https://wa.link/0i7dhy" class="btn btn-icon btn-outline-secondary btn-whatsapp me-3" aria-label="Whatsapp">
+                <i class="bx bxl-whatsapp"></i>
+              </a>
+              <a href="mailto:atencion@iweb.com.mx" class="btn btn-icon btn-outline-secondary btn-google me-3" aria-label="gmail">
+                <i class="bx bxl-gmail"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-6 offset-xl-1">
+            <div class="card border-0 shadow-sm p-sm-2">
+              <form action="https://formsubmit.co/atencion@iweb.com.mx" method="POST" class="card-body needs-validation" novalidate>
+                <div class="mb-4">
+                  <label for="service" class="form-label fs-base">Planes Web + MKT</label>
+                  <select name="Servicio principal" id="service" class="form-select form-select-lg" required>
+                    <option value="" selected disabled>Seleccionar</option>
+                    <option value="Plan Startup">Plan Startup</option>
+                    <option value="Plan PyMEs">Plan PyMEs</option>
+                    <option value="Plan Empresas">Plan Empresas</option>
+                    <option value="Otro">Otro</option>
+                  </select>
+                  <div class="invalid-feedback">Por favor selecciona al menos un servicio</div>
+                </div>
+                <div class="mb-4">
+                  <label for="service" class="form-label fs-base">Manejo de Redes Sociales</label>
+                  <select name="Servicio adicional" id="service" class="form-select form-select-lg">
+                    <option value="" selected disabled>Seleccionar</option>
+                    <option value="Redes Sociales">Si</option>
+                    <option value="Drone">No</option>
+                  </select>
+                </div>
+                <div class="mb-4">
+                  <label for="service" class="form-label fs-base">Planes Drone</label>
+                  <select name="Servicio adicional" id="service" class="form-select form-select-lg">
+                    <option value="" selected disabled>Seleccionar</option>
+                    <option value="Drone">Video con Drone (solo tomas aereas)</option>
+                    <option value="Drone Gymbal">Video Drone + Estabilizador</option>
+                    <option value="Drone Full">Video Drone + Estabilizador + Fotografía</option>
+                    <option value="Drone Full">Ninguno</option>
+                  </select>
+                </div>
+                <div class="mb-4">
+                  <label for="name" class="form-label fs-base">Nombre y apellido</label>
+                  <input name="Nombre y Apellido" type="text" id="name" class="form-control form-control-lg" required>
+                  <div class="invalid-feedback">Favor de ingresar nombre y apellido!</div>
+                </div>
+                <div class="mb-4">
+                  <label for="telefono" class="form-label fs-base">Celular - Teléfono</label>
+                  <input name="Telefono" type="number" id="telefono" class="form-control form-control-lg" required>
+                  <div class="invalid-feedback">Favor de introducir un número válido!</div>
+                </div>
+                <div class="mb-4">
+                  <label for="email" class="form-label fs-base">Correo eléctronico</label>
+                  <input name="Email" type="email" id="email" class="form-control form-control-lg" required>
+                  <div class="invalid-feedback">Favor de introducir un email válido!</div>
+                </div>
+                <div class="mb-4 pb-2">
+                  <label for="message" class="form-label fs-base">Descripción</label>
+                  <textarea name="Descripción" id="message" class="form-control form-control-lg" rows="3" placeholder="Cuentános un poco mas de tu proyecto" required></textarea>
+                  <div class="invalid-feedback">Favor de escribir mensaje!</div>
+                </div>
+                <button type="submit" class="btn btn-primary shadow-primary btn-lg">Solicitar Cotización</button>
+
+                <input type="hidden" name="_next" value="http://www.iweb.com.mx/email.html">
+
+                <input type="hidden" name="_captcha" value="false">
+                
+                <input type="hidden" name="_template" value="box">
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Credits -->
+    <section class="position-relative pt-1 pb-3" style="background-color: #151922;" data-bs-theme="dark">
+
+      <!-- Content -->
+      <div class="container position-relative zindex-2 pt-0 pb-0 pb-md-0">
+        
+        <div class="row justify-content-center pt-0 mt-3">
+          <div class="text-center">
+            <p class="text-body fs-lg pb-0 mb-0">Sitio web creado por 🧑🏻‍💻 <a class="text-decoration-none" href="http://www.iweb.com.mx">iWEB | Studio</a> by JC </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Back to top button -->
+    <a href="#hero" class="btn-scroll-top" data-scroll>
+      <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Volver arriba</span>
+      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+
+    <!-- Vendor Scripts -->
+    <script src="assets/vendor/rellax/rellax.min.js"></script>
+    <script src="assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main Theme Script -->
+    <script src="assets/js/theme.min.js"></script>
+
+    <!-- Smooth Scroll -->
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+    });
+    </script>
+  </body>
+</html>

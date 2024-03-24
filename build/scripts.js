@@ -57,14 +57,7 @@ const bundleJS = async (output) => {
       format: 'iife',
       sourcemap: true,
       banner: `
-/**
- * Silicon | Multipurpose Bootstrap 5 Template & UI Kit
- * Copyright 2023 Createx Studio
- * Theme scripts
- *
- * @author Createx Studio
- * @version 1.6.0
- */
+
       `,
     }
 
